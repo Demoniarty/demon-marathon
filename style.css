@@ -5,7 +5,9 @@ body {
   margin-right: auto;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: inherit;
 }
 
@@ -44,13 +46,11 @@ body {
   color: #533738;
 }
 
+.nav-item:last-child {
+  margin-right: 0; /* возможно отсуп не такой*/
+}
+
 .phone-link {
-  font-family: "Mouse Memoirs", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: #533738;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ body {
   background-color: #cc8b86;
 }
 
-.btn.order {
+.btn {
   font-family: "Mouse Memoirs", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -115,26 +115,62 @@ body {
   color: #533738;
 }
 
-.about-us-content {
+.about-content {
   background-color: #f1dcda;
   border: 1px solid #f1dcda; /* костыль */
-  
 }
 
-.about-us-wrapper {
+.about-wrapper {
   display: flex;
   margin-left: 182px;
   margin-right: 182px;
 }
 
-.about-us-wrapper > img {
+.about-wrapper > img {
   order: -1;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
-.about-us-text {
+.about-text {
   flex-direction: column;
   margin-bottom: 10px;
   margin-left: 63px;
+  margin-top: 15px; /* проблема с отступом*/
+}
+
+.achievments {
+  background-color: #8d7370;
+  border: 1px solid #8d7370;
+}
+
+.achievments-list {
+  display: flex;
+  justify-content: center;
+  margin-left: 182px;
+  margin-right: 180px;
+  list-style: none;
+}
+
+.achievments-item {
+  margin-right: 120px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.achievments-item:last-child {
+  margin-right: 0; /** возможно другой отступ**/
+}
+
+.achievments-item > span {
+  font-size: 50px;
+  line-height: 62px;
 }
