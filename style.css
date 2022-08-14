@@ -246,3 +246,41 @@ body {
 .excerpt-img {
   margin-left: 10px;
 }
+
+.team-content,
+.work-process-content {
+  background-color: #e2c4ba;
+  border: 1px solid #e2c4ba;
+}
+
+.team-list {
+  display: flex;
+  margin-left: 181px;
+  margin-right: 182px;
+  list-style: none;
+}
+
+.team-item {
+  margin-right: 38px;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-item:last-child {
+  margin-right: 0;
+}
+
+.team-item-desc {
+  order: 0;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #533738;
+}
+
+.team-item-pic {
+  order: -1;
+}
