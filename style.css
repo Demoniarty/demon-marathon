@@ -116,8 +116,8 @@ body {
 }
 
 .about-content {
-  background-color: #faf0ef;
-  border: 1px solid #faf0ef; /* костыль */
+  background-color: #efe6e4;
+  border: 1px solid #efe6e4; /* костыль */
 }
 
 .about-wrapper {
@@ -176,8 +176,8 @@ body {
 }
 
 .projects-content {
-  background-color: #faf0ef;
-  border: 1px solid #faf0ef;
+  background-color: #efe6e4;
+  border: 1px solid #efe6e4;
 }
 
 .projects-wrapper {
