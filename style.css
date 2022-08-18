@@ -291,8 +291,28 @@ body {
   text-align: center;
 }
 
+.review-desc {
+  margin-top: 100px; /* 131px */
+}
+
+.reviews-slider {
+  display: flex;
+  margin-left: 283px;
+  margin-right: 283px;
+}
+
 .text.review-caption {
   text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.review-pic {
+  margin-top: 40px;
+  margin-bottom: 41px;
+}
+
+.review-pic > img {
+  margin-bottom: 24px;
 }
 
 /* */
