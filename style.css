@@ -284,3 +284,42 @@ body {
 .team-item-pic {
   order: -1;
 }
+
+.work-process-item {
+  text-align: center;
+}
+
+.text.review-caption {
+  text-transform: uppercase;
+}
+
+/** **/
+
+.reviews-content {
+  background-color: #efe6e4;
+  border: 1px solid #efe6e4;
+}
+
+/* */
+
+.request-content {
+  background-color: #8d7370;
+  border: 1px solid #8d7370;
+}
+
+.white-title {
+  color: #fff;
+}
+
+.text.request-desc {
+  color: #ffffff;
+
+  opacity: 0.6;
+}
+
+/* */
+
+.page-footer {
+  background-color: #efe6e4;
+  border: 1px solid #efe6e4;
+}
