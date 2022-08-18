@@ -38,7 +38,7 @@ body {
 .nav-item {
   margin-right: 26px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -60,7 +60,7 @@ body {
 }
 
 .lead-title {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -72,7 +72,7 @@ body {
 .text {
   /*margin-top: 24px;*/
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -90,7 +90,7 @@ body {
 }
 
 .btn {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -103,7 +103,7 @@ body {
 /* main */
 
 .title {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -154,7 +154,7 @@ body {
 
 .achievments-item {
   margin-right: 120px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -177,8 +177,7 @@ body {
 
 .projects-content,
 .reviews-content,
-.page-footer
-{
+.page-footer {
   background-color: #efe6e4;
   border: 1px solid #efe6e4;
 }
@@ -219,7 +218,7 @@ body {
 
 .studio-title {
   padding-top: 86px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -236,7 +235,7 @@ body {
 }
 
 .excerpt-link {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -275,7 +274,7 @@ body {
 
 .team-item-desc {
   order: 0;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -313,3 +312,16 @@ body {
 }
 
 /* */
+
+.footer-wrapper {
+  display: flex;
+  margin: 37px 100px;
+}
+
+.number {
+  margin-right: 42px;
+}
+
+.adress {
+  margin-right: 370px; /* should be 379 */
+}
