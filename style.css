@@ -374,6 +374,7 @@ input[type="tel"] {
 
 .number {
   margin-right: 42px;
+  text-decoration: none;
 }
 
 .adress {
