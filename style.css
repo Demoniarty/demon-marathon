@@ -333,6 +333,10 @@ body {
   color: #fff;
 }
 
+.white-title {
+  margin-top: 50px;
+}
+
 .text.request-desc {
   opacity: 0.6;
 }
