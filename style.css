@@ -337,6 +337,30 @@ body {
   opacity: 0.6;
 }
 
+input[type="text"],
+input[type="tel"] {
+  width: 508px;
+  height: 35px;
+  background-color: #8d7370;
+  border: 1px solid #8d7370;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 35px;
+}
+
+::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #f6ede9;
+}
+
+.btn-2 {
+  border: 1px solid #cc8b86;
+}
+
 /* */
 
 .footer-wrapper {
