@@ -302,6 +302,12 @@ body {
   border: 1px solid #8d7370;
 }
 
+.request-wrapper {
+  display: flex;
+  margin-left: 181px;
+  margin-right: 101px;
+}
+
 .white-title,
 .text.request-desc {
   color: #fff;
