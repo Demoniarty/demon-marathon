@@ -30,15 +30,15 @@ body {
 
 .nav-list {
   display: flex;
-  margin-left: 89px;
-  margin-right: 35px;
+  /*margin-left: 89px; этот отсуп должен быть
+  /*margin-right: 35px;*/
   list-style: none;
 }
 
 .nav-item {
   margin-right: 26px;
 
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -60,7 +60,7 @@ body {
 }
 
 .lead-title {
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
@@ -72,7 +72,7 @@ body {
 .text {
   /*margin-top: 24px;*/
 
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -90,7 +90,7 @@ body {
 }
 
 .btn {
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -103,7 +103,7 @@ body {
 /* main */
 
 .title {
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -154,7 +154,7 @@ body {
 
 .achievments-item {
   margin-right: 120px;
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -175,7 +175,10 @@ body {
   line-height: 62px;
 }
 
-.projects-content {
+.projects-content,
+.reviews-content,
+.page-footer
+{
   background-color: #efe6e4;
   border: 1px solid #efe6e4;
 }
@@ -216,7 +219,7 @@ body {
 
 .studio-title {
   padding-top: 86px;
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -233,7 +236,7 @@ body {
 }
 
 .excerpt-link {
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -272,7 +275,7 @@ body {
 
 .team-item-desc {
   order: 0;
-  font-family: "Mouse Memoirs", sans-serif;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -293,13 +296,6 @@ body {
   text-transform: uppercase;
 }
 
-/** **/
-
-.reviews-content {
-  background-color: #efe6e4;
-  border: 1px solid #efe6e4;
-}
-
 /* */
 
 .request-content {
@@ -307,19 +303,13 @@ body {
   border: 1px solid #8d7370;
 }
 
-.white-title {
+.white-title,
+.text.request-desc {
   color: #fff;
 }
 
 .text.request-desc {
-  color: #ffffff;
-
   opacity: 0.6;
 }
 
 /* */
-
-.page-footer {
-  background-color: #efe6e4;
-  border: 1px solid #efe6e4;
-}
