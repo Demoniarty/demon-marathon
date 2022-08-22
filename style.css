@@ -287,8 +287,32 @@ body {
   order: -1;
 }
 
+.work-process-list {
+  display: flex;
+  margin: 20px 100px 80px 99px;
+  list-style: none;
+}
+
 .work-process-item {
   text-align: center;
+}
+
+.special-item-white {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+
+  color: #ffffff;
+
+  /* стили для коричневых кружков*/
+  background: no-repeat url('img/brown-circle.png');
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
 
 .review-desc {
