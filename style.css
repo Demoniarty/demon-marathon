@@ -315,14 +315,44 @@ body {
   padding-top: 20px;
 }
 
+.reviews-slider {
+  display: flex;
+  margin-left: 182px;
+  margin-right: 182px;
+
+  /*border: 1px solid #000;*/
+}
+
 .review-desc {
   margin-top: 100px; /* 131px */
 }
 
-.reviews-slider {
+.slide {
   display: flex;
-  margin-left: 283px;
-  margin-right: 283px;
+  margin-left: 29px;
+  margin-right: 29px;
+  /*border: 1px solid #000;*/
+  
+}
+
+.slide-2 {
+  display: none;
+}
+
+.btn-slide {
+  width: 173px; /* 72px */
+  height: 75px; /* 72px */
+  border: none;
+  align-self: center;
+  background-size: cover;
+}
+
+.slide-to-left {
+  background: no-repeat url('img/arrow-to-left.png');
+}
+
+.slide-to-right {
+  background: no-repeat url('img/arrow-to-right.png');
 }
 
 .text.review-caption {
