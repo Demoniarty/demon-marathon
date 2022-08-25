@@ -340,7 +340,7 @@ body {
   color: #ffffff;
 
   /* стили для коричневых кружков*/
-  background: no-repeat url('img/brown-circle.png');
+  background: no-repeat url("img/brown-circle.png");
   width: 70px;
   height: 70px;
   margin-left: auto;
@@ -372,7 +372,6 @@ body {
   margin-left: 29px;
   margin-right: 29px;
   /*border: 1px solid #000;*/
-  
 }
 
 .slide-2 {
@@ -394,11 +393,11 @@ body {
 }
 
 .slide-to-left {
-  background: no-repeat url('img/arrow-to-left.png');
+  background: no-repeat url("img/arrow-to-left.png");
 }
 
 .slide-to-right {
-  background: no-repeat url('img/arrow-to-right.png');
+  background: no-repeat url("img/arrow-to-right.png");
 }
 
 .text.review-caption {
