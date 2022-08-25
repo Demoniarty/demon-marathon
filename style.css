@@ -444,6 +444,28 @@ input[type="tel"] {
   margin-bottom: 35px;
 }
 
+input[type="text"]:focus {
+  background-color: #ecd8d5;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8d7370;
+}
+
+input[type="tel"]:focus {
+  background-color: #ecd8d5;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #8d7370;
+}
+
 ::placeholder {
   font-family: "Montserrat";
   font-style: normal;
