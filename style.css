@@ -30,8 +30,6 @@ body {
 
 .nav-list {
   display: flex;
-  /*margin-left: 89px; этот отсуп должен быть
-  /*margin-right: 35px;*/
   list-style: none;
 }
 
@@ -60,7 +58,7 @@ body {
 }
 
 .nav-item:last-child {
-  margin-right: 0; /* возможно отсуп не такой*/
+  margin-right: 0; 
 }
 
 .phone-link {
@@ -194,7 +192,7 @@ body {
 }
 
 .achievments-item:last-child {
-  margin-right: 0; /** возможно другой отступ**/
+  margin-right: 0;
 }
 
 .achievments-item > span {
@@ -342,7 +340,7 @@ body {
 
   color: #ffffff;
 
-  /* стили для коричневых кружков*/
+  /* brown circles styles */
   background: no-repeat url("img/brown-circle.png");
   width: 70px;
   height: 70px;
@@ -365,7 +363,7 @@ body {
 }
 
 .review-desc {
-  margin-top: 100px; /* 131px */
+  padding-top: 131px;
 }
 
 .slide {
@@ -496,5 +494,5 @@ input[type="tel"]:focus {
 }
 
 .adress {
-  margin-right: 370px; /* should be 379 */
+  margin-right: 379px;
 }
