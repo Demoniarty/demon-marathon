@@ -23,13 +23,15 @@ body {
 }
 
 .logo {
-  margin-top: 15px;
-  height: 20px;
+  margin-top: 18px;
+  width: 49px;
+  height: 15px;
   display: flex;
 }
 
 .nav-list {
   display: flex;
+  margin-left: 89px;
   list-style: none;
 }
 
