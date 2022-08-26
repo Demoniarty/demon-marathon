@@ -53,6 +53,14 @@ body {
   color: #533738;
 }
 
+.link-translate {
+  transition: 0.5s ease-in;
+}
+
+.link-translate:hover {
+  transform: translateY(15px);
+}
+
 .nav-item > a:hover {
   color: #cc8b86;
 }
