@@ -451,6 +451,10 @@ body {
   opacity: 0.6;
 }
 
+label {
+  display: none;
+}
+
 input[type="text"],
 input[type="tel"] {
   width: 508px;
