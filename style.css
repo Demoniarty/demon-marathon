@@ -183,6 +183,10 @@ body {
   background-color: #8d7370;
 }
 
+.hidden {
+  display: none;
+}
+
 .achievments-list {
   display: flex;
   justify-content: center;
