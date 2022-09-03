@@ -399,12 +399,10 @@ body {
   border: none;
   align-self: center;
   background-size: cover;
-  transition: 0.3s ease-in;
 }
 
 .btn-slide:hover {
   filter: hue-rotate(25deg);
-  transform: rotate(360deg);
 }
 
 .slide-to-left {
