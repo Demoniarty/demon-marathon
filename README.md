@@ -1,3 +1,2 @@
 # demon-marathon
-This is a repository I created to go the marathon by HTML Academy.
-Данный проект не является моим профессиональным достоянием, поскольку представляет собой тренировочный проект. Говнокод пишется и редактируется на более менее приемлемые варианты. Сайт БЕЗ адаптива, JS и прочих штук, поскольку это требование марафона. Также имеются некоторые критерии https://disk.yandex.ru/edit/d/7T3fDILW54olu3rKob0I6yPegnqahzm72s0qoIz-cKg6XzVUZ3NnYW9VUQ, некоторые из которых разработчик в гробу видел, уж извините, как-нибудь потом заменю обертки на псевдоэлементы. Кхм. 
+This is a repository I created to get through marathon by HTML Academy. Now that marathon has finished I've been still working on this project. I watched 3 reviews (unfortunately, they didn't take my work) so now I'm gonna work on bugs till I make my site better.   
